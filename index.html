@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>EdTech Website</title>
+    <title>Education Website</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <!---style css linl-->
@@ -44,10 +44,12 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Register</a>
                     </li>
-                    <form class="d-flex" role="search">
-                        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-primary ms-5" type="register">Register</button>
-                    </form>
+                    <li>
+                        <form class="d-flex" role="search">
+                            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-primary ms-5" type="register">Register</button>
+                        </form>
+                    </li>
 
                 </ul>
 
@@ -62,12 +64,12 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="overlay">
-                        <img src="images/cover/cover-1.png" class="d-block w-100 mb-5" alt="...">
+                        <img src="images/cover/cover-1.png" class=" img-fluid d-block w-100 mb-3" alt="...">
                     </div>
                     <div
                         class="carousel-caption d-flex flex-column justify-content-center align-items-center h-75 d-md-block">
-                        <h1 class="fs-1 fw-bold">Get Started Digital
-                            Learning</h1>
+                        <h2 class="fs-1 fw-bold">Get Started Digital
+                            Learning</h2>
                         <p>It is a long established fact that a reader will be distracted by the
                             readable content of a page when looking at its layout</p>
                         <div class="btn bg-info"> Get Started</div>
@@ -105,88 +107,107 @@
             </div>
         </div>
 
-        <div class="container text-center my-5">
-            <div class="row row-cols-lg-2 g-4">
+        <div class=" text-center my-5">
+            <div class=" row row-cols-sm-1 row-cols-md-1 row-cols-lg-2 g-4">
                 <div class="col">
-                    <div class=" d-flex border border-1 rounded">
+                    <div class=" d-flex border border-1 rounded" id="mobile-device">
                         <div>
-                            <img src="images/course/course-1.png" alt="">
+                            <div class="w-auto img-fluid">
+                                <img class="image" src="images/course/course-1.png" alt="">
+                            </div>
                         </div>
-                        <div class="mt-5 mx-2">
-                            <h5 class="fw-bolder">Fundamental Of UI/UX Design</h5>
-                            <p class="fw-light"> Some quick example text to build on the card title and make up the
-                                bulk of the card.</p>
-                            <h6 class="text-primary">Price:20$</h6>
+                        <div>
+                            <div class="mt-4 mx-2">
+                                <h5 class="fw-bolder">Fundamental Of UI/UX Design</h5>
+                                <p class="fw-light"> Some quick example text to build on the card title and make up
+                                    the
+                                    bulk of the card.</p>
+                                <h6 class="text-primary">Price:20$</h6>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div>
-                    <div class=" d-flex border border-1 rounded">
+
+                <div class="col">
+                    <div class=" d-flex border border-1 rounded" id="mobile-device">
                         <div>
-                            <img src="images/course/course-2.png" alt="">
+                            <div class="w-auto img-fluid">
+                                <img class="image" src="images/course/course-2.png" alt="">
+                            </div>
                         </div>
-                        <div class="mt-5 mx-2">
-                            <h5 class="fw-bolder">Javascript Basic to advanced</h5>
-                            <p class="fw-light"> JavaScript is the world's most popular programming language. This
-                                tutorial will teach
-                                you JavaScript from basic to advanced.</p>
-                            <h6 class="text-primary">Price:25$</h6>
+                        <div>
+                            <div class="mt-4 mx-2">
+                                <h5 class="fw-bolder">Javascript Basic to advanced</h5>
+                                <p class="fw-light"> This tutorial will teach you JavaScript from basic to advanced.</p>
+                                <h6 class="text-primary">Price:25$</h6>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div>
-                    <div class=" d-flex border border-1 rounded">
+                <div class="col">
+                    <div class=" d-flex border border-1 rounded" id="mobile-device">
                         <div>
-                            <img src="images/course/course-3.png" alt="">
+                            <div class="w-auto img-fluid">
+                                <img class="image" src="images/course/course-3.png" alt="">
+                            </div>
                         </div>
-                        <div class="mt-5 mx-2">
-                            <h5 class="fw-bolder">Fullstack Web Development</h5>
-                            <p class="fw-light"> This course serves as an introduction to modern web application
-                                development with
-                                JavaScript.</p>
-                            <h6 class="text-primary">Price:30$</h6>
+                        <div>
+                            <div class="mt-4 mx-2">
+                                <h5 class="fw-bolder">Fullstack Web Development</h5>
+                                <p class="fw-light"> This course serves as modern web application development.</p>
+                                <h6 class="text-primary">Price:30$</h6>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div>
-                    <div class=" d-flex border border-1 rounded">
+                <div class="col">
+                    <div class=" d-flex border border-1 rounded" id="mobile-device">
                         <div>
-                            <img src="images/course/course-4.png" alt="">
+                            <div class="w-auto img-fluid">
+                                <img class="image" src="images/course/course-4.png" alt="">
+                            </div>
                         </div>
-                        <div class="mt-5 mx-2">
-                            <h5 class="fw-bolder">Digital Marketing</h5>
-                            <p class="fw-light"> Digital marketing is the component of marketing that uses the Internet
-                                and online based
-                                digital technologies.</p>
-                            <h6 class="text-primary">Price:20$</h6>
+                        <div>
+                            <div class="mt-4 mx-2">
+                                <h5 class="fw-bolder">Digital Marketing</h5>
+                                <p class="fw-light"> Digital marketing uses the internet and online based digital
+                                    technologies.</p>
+                                <h6 class="text-primary">Price:20$</h6>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div>
-                    <div class=" d-flex border border-1 rounded">
+                <div class="col">
+                    <div class=" d-flex border border-1 rounded" id="mobile-device">
                         <div>
-                            <img src="images/course/course-5.png" alt="">
+                            <div class="w-auto img-fluid">
+                                <img class="image" src="images/course/course-5.png" alt="">
+                            </div>
                         </div>
-                        <div class="mt-5 mx-2">
-                            <h5 class="fw-bolder">Photography Basic Rules</h5>
-                            <p class="fw-light"> To use the golden ratio in photography, you simply apply it to the
-                                placement of objects
-                                in your composition.</p>
-                            <h6 class="text-primary">Price:25$</h6>
+                        <div>
+                            <div class="mt-4 mx-2">
+                                <h5 class="fw-bolder">Photography Basic Rules</h5>
+                                <p class="fw-light"> To use the golden ratio in photography, you simply apply it.</p>
+                                <h6 class="text-primary">Price:25$</h6>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div>
-                    <div class=" d-flex border border-1 rounded">
+                <div class="col">
+                    <div class=" d-flex border border-1 rounded" id="mobile-device">
                         <div>
-                            <img src="images/course/course-6.png" alt="">
+                            <div class="w-auto img-fluid">
+                                <img class="image" src="images/course/course-6.png" alt="">
+                            </div>
                         </div>
-                        <div class="mt-5 mx-2">
-                            <h5 class="fw-bolder">Motion Graphics</h5>
-                            <p class="fw-light"> The most important software to master as a Motion Graphic artist is
-                                Adobe After Effects.
-                            </p>
-                            <h6 class="text-primary">Price:30$</h6>
+                        <div>
+                            <div class="mt-4 mx-2">
+                                <h5 class="fw-bolder">Motion Graphics</h5>
+                                <p class="fw-light"> The most important software to master as a Motion Graphic artist
+                                    Effects.
+                                </p>
+                                <h6 class="text-primary">Price:30$</h6>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -200,7 +221,7 @@
     <!---courses area end-->
     <!--register starts from here button trigger modal-->
     <section style="height: 200px; ;"
-        class=" row container rounded d-flex justify-content-center align-items-center gap-5 bg-info">
+        class=" row row-cols-1 container rounded d-flex justify-content-center align-items-center gap-5 bg-info">
         <div class="col-6 me-5 text-white">
             <h2>Ready to join?</h2>
             <p>Used by millions of students, scientific researchers, professional translators and editors from all over
@@ -344,29 +365,29 @@
     <!----frequently asks questions end-->
 
     <!---trusted companies start-->
-    <section>
+    <section class="d-sm-none d-md-none d-lg-block">
         <div class="fw-bold text-center">
             <h2>
                 Trusted by over 800+ companies
             </h2>
         </div>
-        <div class="img-fluid d-flex justify-content-between align-items-center my-3">
-            <div class="p-2 w-25 h-25">
+        <div class="img-fluid d-flex justify-content-between align-items-center my-4 p-1">
+            <div class="w-25 h-25">
                 <img src="images/company/company-1.png" alt="...">
             </div>
-            <div class="p-3 w-25 h-25">
+            <div class="w-25 h-25">
                 <img src="images/company/company-2.png" alt="...">
             </div>
-            <div class="p-3 w-25 h-25">
+            <div class="w-25 h-25">
                 <img src="images/company/company-3.png" alt="...">
             </div>
-            <div class="p-3 w-25 h-25">
+            <div class="w-25 h-25">
                 <img src="images/company/company-4.png" alt="...">
             </div>
-            <div class="p-3 w-25 h-25">
+            <div class="w-25 h-25">
                 <img src="images/company/company-5.png" alt="...">
             </div>
-            <div class="p-2 w-25 h-25">
+            <div class="w-25 h-25">
                 <img src="images/company/company-6.png" alt="...">
             </div>
         </div>

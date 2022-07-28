@@ -1,3 +1,15 @@
 .overlay {
     filter: brightness(50%);
 }
+
+@media only screen and (max-width:688px) {
+
+    #mobile-device {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image {
+        width: 100%;
+    }
+}
